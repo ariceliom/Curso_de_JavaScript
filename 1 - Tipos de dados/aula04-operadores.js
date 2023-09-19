@@ -1,5 +1,5 @@
 /**
- * Aritméticos
+ * Operadores Aritméticos
  */
 
 //Adição 13 + 2
@@ -61,3 +61,32 @@ rest2 = 100
 resto = rest1 % rest2
 
 console.log(`o resto da divisão é: ${resto}`)
+
+/**
+ * Operadores de Comparação
+ */
+
+//Menor que 
+1 < 2
+
+//Maior que
+2 > 4
+
+//Igua á 
+1 === 1
+
+//Diferente de
+1 !== -1
+
+//Menor ou igual que
+10 <= 10
+
+//Maior ou igual que
+5 >= 4
+
+//OU
+(idade < 18) || (idade > 25)
+
+//E
+(nome === "Aricelio") && (idade < 31)
+
