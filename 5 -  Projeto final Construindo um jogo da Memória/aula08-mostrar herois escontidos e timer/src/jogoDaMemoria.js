@@ -14,6 +14,7 @@ class JogoDaMemoria {
             { img: './arquivos/mulhermaravilha.png', nome: 'mulhermaravilha' },
         ]
 
+        
         this.heroisEscondidos = []
         this.heroisSelecionados = []
     }
