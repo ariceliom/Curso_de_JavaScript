@@ -12,6 +12,7 @@ const MENSAGENS = {
         classe: "alert-danger"
     }
 }
+
 class Tela {
     static obterCodigoHtml(item) {
        return `
@@ -23,13 +24,16 @@ class Tela {
         </div> 
         `
     }
+
     static alterarConteudoHTML(codigoHtml) {
         const conteudo = document.getElementById(ID_CONTEUDO)
         conteudo.innerHTML = codigoHtml
     }
+
     static gerarStringHTMLPelaImagem(data) {
         return data.map(Tela.obterCodigoHtml).join('')
     }
+    
     static exibirMensagem(sucesso = true) {
         
         const elemento = document.getElementById(ID_MENSAGEM)
